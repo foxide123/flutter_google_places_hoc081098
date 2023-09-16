@@ -15,7 +15,7 @@ class CustomSearchScaffold extends PlacesAutocompleteWidget {
           apiKey: kGoogleApiKey,
           sessionToken: const Uuid().v4(),
           language: 'en',
-          components: [const Component(Component.country, 'uk')],
+          components: [Component(Component.country, 'uk')],
         );
 
   @override

@@ -28,7 +28,11 @@ dependencies:
   collection: ^1.17.1
   flutter_bloc_pattern: ^2.3.0
   json_annotation: ^4.8.1
-  meta: ^1.7.0
+  meta: ^1.9.1
+  google_maps_webservice:
+    git:
+      url:  https://github.com/foxide123/google_maps_webservice.git
+      ref: master
 
 dev_dependencies:
   flutter_test:

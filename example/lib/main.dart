@@ -124,7 +124,7 @@ class _MyAppState extends State<MyApp> {
       onError: onError,
       mode: _mode,
       language: 'fr',
-      components: [const Component(Component.country, 'fr')],
+      components: [ Component(Component.country, 'fr')],
       resultTextStyle: Theme.of(context).textTheme.titleMedium,
     );
 
