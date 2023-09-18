@@ -130,10 +130,11 @@ packages:
   google_api_headers:
     dependency: "direct main"
     description:
-      name: google_api_headers
-      sha256: "104a73abca28c65b969482077d4c98c871ac38c3dd426a1536287baec50cec01"
-      url: "https://pub.dev"
-    source: hosted
+      path: "."
+      ref: main
+      resolved-ref: "6ef30b50c96e023acf6103642b1f355b3202bce5"
+      url: "https://github.com/foxide123/google_api_headers.git"
+    source: git
     version: "2.0.0"
   google_maps_webservice:
     dependency: transitive
