@@ -12,7 +12,10 @@ dependencies:
     sdk: flutter
   flutter_google_places_hoc081098:
     path: ../
-  google_api_headers: ^2.0.0
+  google_api_headers: 
+    git:
+      url: https://github.com/foxide123/google_api_headers.git
+      ref: main
   uuid: ^4.0.0
 
 dev_dependencies:
